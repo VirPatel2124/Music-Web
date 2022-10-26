@@ -23,7 +23,7 @@ loadSong(songs[songIndex]);
 // Update song details
 function loadSong(song) {
   title.innerText = song;
-  audio.src = `musicPSM/${song}.mp3`;
+  audio.src = `MusicPSM/${song}.mp3`;
   cover.src = `img/${song}.jpg`;
 }
 
